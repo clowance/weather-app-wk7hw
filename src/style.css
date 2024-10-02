@@ -71,10 +71,18 @@ main {
   color: #f65282;
 }
 
-.icon-image {
-  top: -20px;
-  font-size: 40px;
+.current-temperature-icon {
+  position: relative;
+  top: 20px;
+  width: 100px;
   margin-right: 10px;
+}
+
+.icon-image {
+	position: relative
+	top: 10px;
+	width: 100px;
+	margin-right: 10px;
 }
 
 .current-temperature-value {
